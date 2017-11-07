@@ -1,0 +1,101 @@
+div.clearfix{
+  clear: both;
+}
+
+div.selector-wrapper{
+  width: 100%;
+  /*margin: 0 auto;*/
+}
+
+div.cookie-img{
+  height: 100px;
+  width: 100px;
+  /*border: 2px solid black;*/
+  /*background-color: blue;*/
+  float: left;
+  margin: 10px;
+  box-sizing: border-box;
+
+}
+
+#imgA{
+  background-image: url(cookieA.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#imgB{
+  background-image: url(cookieB.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#imgC{
+  background-image: url(cookieC.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+div.cookie{
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  margin: 20px 0px;
+  /*background-color: gray;*/
+  box-sizing: border-box;
+}
+
+div#A{
+
+
+}
+
+div#B{
+
+
+}
+
+div#C{
+
+
+}
+
+div.minus{
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-left: 30px;
+  border-radius: 30px;
+  text-align: center;
+  /*padding-bottom: 3px;*/
+  background-color: lightgray;
+  font-weight: bold;
+  border: 2px solid black;
+  font-size: 25px
+}
+
+div.counter{
+  width: 30px;
+  margin: 30px;
+  float: left;
+  font-size: 25px;
+  text-align: center;
+}
+
+div.plus{
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-left: 30px;
+  border-radius: 30px;
+  text-align: center;
+  /*padding-bottom: 3px;*/
+  background-color: lightgray;
+  font-weight: bold;
+  border: 2px solid black;
+  font-size: 25px
+}
+
+div.totalwrapper{
+  width: 100%;
+}
